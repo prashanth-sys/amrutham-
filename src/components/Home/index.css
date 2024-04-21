@@ -448,7 +448,36 @@
 }
 .specialization-container {
   width: 628px;
-  height: 310px;
+  height: 290px;
+  top: 475px;
+  left: 110px;
+  gap: 0px;
+  border-radius: 18px 18px 18px 18px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #212529;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 5px;
+}
+.health-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.health-card {
+  margin-left: 25px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.treatment-name {
+  color: #000000;
+  font-weight: 500;
+}
+.concern-treat-container {
+  width: 628px;
+  height: 290px;
   top: 475px;
   left: 110px;
   gap: 0px;

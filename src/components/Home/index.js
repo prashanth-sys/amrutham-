@@ -204,9 +204,42 @@ class Home extends Component {
               <h1 className="about-me">I Specialize In</h1>
               <div className="health-container">
                 <div className="health-card">
-                  <p>krishna</p>
+                  <img
+                    src="https://res.cloudinary.com/dlsuy2qn2/image/upload/v1713686440/Frame_1000006268_hxex4i.png"
+                    alt="health"
+                    className="health-image"
+                  />
+                  <p className="treatment-name">Women's Health</p>
+                </div>
+                <div className="health-card">
+                  <img
+                    src="https://res.cloudinary.com/dlsuy2qn2/image/upload/v1713686393/Frame_1000006269_u3twmq.png"
+                    alt="health"
+                    className="health-image"
+                  />
+                  <p className="treatment-name">Skin Care</p>
+                </div>
+                <div className="health-card">
+                  <img
+                    src="https://res.cloudinary.com/dlsuy2qn2/image/upload/v1713686448/Frame_1000006270_quaa7r.png"
+                    alt="health"
+                    className="health-image"
+                  />
+                  <p className="treatment-name">Immunity</p>
+                </div>
+                <div className="health-card">
+                  <img
+                    src="https://res.cloudinary.com/dlsuy2qn2/image/upload/v1713686460/Frame_1000006271_wjkqjz.png"
+                    alt="health"
+                    className="health-image"
+                  />
+                  <p className="treatment-name">Hair Care</p>
                 </div>
               </div>
+            </div>
+
+            <div className="concern-treat-container">
+              <h1 className="about-me">The Concern I Treat</h1>
             </div>
           </div>
         </div>
